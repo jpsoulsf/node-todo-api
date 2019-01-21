@@ -35,5 +35,5 @@ MongoClient.connect(dbUrl, (error, db) => {
 
     console.log('Connected to MongoDb server');
 
-    db.close();
+    //db.close();
 })
